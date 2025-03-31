@@ -38,7 +38,7 @@ if (moving) {
 	if (runKey) {
 		spd *= runMult
 	}
-		
+	
 	var dir = point_direction(x, y, targetX, targetY);
 	x += lengthdir_x(spd, dir);
 	y += lengthdir_y(spd, dir);
