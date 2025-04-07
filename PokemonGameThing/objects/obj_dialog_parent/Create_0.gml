@@ -14,4 +14,4 @@ dialogArray = [];
 dialogReady = false;
 dialogSpriteArray = []
 
- dialog_cooldown = 2
+dialog_cooldown = 2

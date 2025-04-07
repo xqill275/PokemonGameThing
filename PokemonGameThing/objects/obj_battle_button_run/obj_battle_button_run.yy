@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_solid",
-  "eventList":[],
+  "%Name":"obj_battle_button_run",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_solid",
+  "name":"obj_battle_button_run",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"battleStuff",
+    "path":"folders/Objects/battleStuff.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -26,8 +28,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":null,
+  "solid":false,
+  "spriteId":{
+    "name":"spr_battle_button_run",
+    "path":"sprites/spr_battle_button_run/spr_battle_button_run.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
