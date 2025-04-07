@@ -5,7 +5,7 @@ targetY = y;
 moving = false;
 running = false;
 baseSpd = 4;
-runMult = 2;
+runMult = 1.5;
 
 
 ;

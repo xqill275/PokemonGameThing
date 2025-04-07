@@ -1,9 +1,13 @@
-// Only check for an encounter if the cooldown is over
+
 if (place_meeting(x, y, obj_player) && encounter_cooldown <= 0) {
-    var randomNumber = irandom(100); // Use irandom for an integer value
+    var randomNumber = irandom(100);
     if (randomNumber <= encounterChance) {
         show_debug_message("There was an encounter!");
-        encounter_cooldown = 60; // Set cooldown (e.g., 60 frames = 1 second)
+        encounter_cooldown = 60; 
+		
+		global.player_x = x;
+		global.player_y = y;
+		room_goto(rm_battle);
     }
 }
 
